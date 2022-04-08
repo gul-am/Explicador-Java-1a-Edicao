@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class Exercicio01 {
     
-    //1 faca um programa em java que receba doid numeros e exiba o resultado da sua soma.
+    //1. Faca um programa em java que receba dois numeros e exiba o resultado da sua soma.
     
     public static void main (String[] arg){
         
