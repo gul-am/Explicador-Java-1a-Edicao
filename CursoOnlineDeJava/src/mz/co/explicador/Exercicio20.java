@@ -12,6 +12,16 @@ import java.util.Scanner;
  */
 public class Exercicio20 {
     
+    /*
+    20. A concessonaria de veiculos "Carrango Velho" esta vendendo 
+    os seus veiculos com desconto. Faca um programa em java que calcule e exiba 
+    o valor do desconto e o valor a ser pago pelo cliente de varios carros. 
+    O desconto devera ser calculado de acordo com o ano do veiculo.
+    Ate 2000 - 12% e acima de 2000 - 7%. O sistema devera perguntar se deseja
+    continuar calculando descontos are que a resposta seja: "{N} Nao". 
+    Informar total de carros com ano ate 2000 e total geral.
+    */
+    
     public static void main(String[] args) {
         
         Scanner s = new Scanner(System.in);
