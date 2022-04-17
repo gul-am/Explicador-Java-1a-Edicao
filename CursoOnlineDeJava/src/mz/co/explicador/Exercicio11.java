@@ -27,17 +27,17 @@ public class Exercicio11 {
     float preco = s.nextFloat();
     
     System.out.println("Percentagem de acrescimo: ");
-    float porcentagem = s.nextFloat();
+    float percentagem = s.nextFloat();
     
     
-    if( porcentagem >= 0 && porcentagem <= 100){
+    if( percentagem >= 0 && percentagem <= 100){
         
-        float acrescimo = (porcentagem/100)*preco;
+        float acrescimo = (percentagem/100)*preco;
         float precoFinal = acrescimo + preco;
         
         System.err.println("========== Inicio ===========");
         System.out.println("Preco inicial: " + preco + "mt");
-        System.out.println(porcentagem + " % = " + acrescimo + "mt");
+        System.out.println(percentagem + " % = " + acrescimo + "mt");
         System.out.println("Preco final a pagar: " + precoFinal + "mt\n");   
           
     }else{
